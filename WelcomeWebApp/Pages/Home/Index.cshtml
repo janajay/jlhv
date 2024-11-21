@@ -1,0 +1,13 @@
+﻿@page
+@model WelcomeWebApp.Pages.Home.IndexModel
+
+@{
+    Layout = "_Layout";  <!-- Specify the layout file -->
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>@Model.Message</p>  <!-- This will show the message from the PageModel -->
+    <p>Congratulations! Your Web App is up and running!</p>
+</div>
