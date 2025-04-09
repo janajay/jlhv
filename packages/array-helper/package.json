@@ -1,9 +1,14 @@
 {
   "name": "@jlhv/array-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility library for array manipulation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janajay/jlhv.git",
+    "directory": "packages/array-helper"
+  },
   "files": [
     "dist"
   ],

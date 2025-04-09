@@ -1,9 +1,14 @@
 {
   "name": "@jlhv/date-helper",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple date helper utility for different time formats.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janajay/jlhv.git",
+    "directory": "packages/date-helper"
+  },
   "files": [
     "dist"
   ],

@@ -1,9 +1,14 @@
 {
   "name": "@jlhv/numeric-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple utility library for numeric manipulation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janajay/jlhv.git",
+    "directory": "packages/numeric-helper"
+  },
   "files": [
     "dist"
   ],
