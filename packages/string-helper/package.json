@@ -1,0 +1,42 @@
+{
+  "name": "@jlhv/string-helper",
+  "version": "1.0.6",
+  "description": "A simple utility library for string manipulation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist build",
+    "build": "npm run clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "string",
+    "string-helper",
+    "string-utils",
+    "text",
+    "string-manipulation",
+    "text-processing",
+    "string-format",
+    "string-conversion",
+    "typescript",
+    "javascript",
+    "string-functions"
+  ],
+  "author": "Vijayavel R",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@jlhv/string-helper": "file:"
+  }
+}

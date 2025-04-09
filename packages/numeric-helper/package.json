@@ -1,0 +1,43 @@
+{
+  "name": "@jlhv/numeric-helper",
+  "version": "1.0.2",
+  "description": "A simple utility library for numeric manipulation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist build",
+    "build": "npm run clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "number",
+    "numeric",
+    "math",
+    "math-utils",
+    "math-helper",
+    "number-utils",
+    "number-functions",
+    "numeric-helpers",
+    "calculation",
+    "math-library",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Vijayavel R",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@jlhv/numeric-helper": "file:"
+  }
+}

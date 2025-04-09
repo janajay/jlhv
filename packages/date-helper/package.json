@@ -1,0 +1,47 @@
+{
+  "name": "@jlhv/date-helper",
+  "version": "1.0.6",
+  "description": "A simple date helper utility for different time formats.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist build",
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Vijayavel R",
+  "license": "ISC",
+  "dependencies": {
+    "@jlhv/date-helper": "file:",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "date-helper",
+    "date-format",
+    "time-format",
+    "date-utils",
+    "date-fns",
+    "datetime",
+    "timezone",
+    "date-manipulation",
+    "calendar",
+    "timestamp",
+    "date-conversion",
+    "typescript",
+    "javascript"
+  ]
+}

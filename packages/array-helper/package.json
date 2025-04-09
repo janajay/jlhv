@@ -1,0 +1,41 @@
+{
+  "name": "@jlhv/array-helper",
+  "version": "1.0.0",
+  "description": "A simple utility library for array manipulation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist build",
+    "build": "npm run clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "array",
+    "array-helper",
+    "array-utils",
+    "array-functions",
+    "array-manipulation",
+    "data-structures",
+    "sorting",
+    "filtering",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Vijayavel R",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@jlhv/array-helper": "file:"
+  }
+}
